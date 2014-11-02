@@ -12,7 +12,7 @@ float: right;
 
 main{
 clear: right;
-padding: 50px;
+padding: 4%;
 }
 
 main img {
@@ -20,7 +20,7 @@ margin-left: 10%;
 }
 
 main p{
-width: 500px;
+width: 35%;
 float: right;
 clear: left;
 }
@@ -34,7 +34,7 @@ text-align: center;
 list-style: none;
 float: left;
 display: inline-block;
-padding: 30px;
+padding: 1.36em;
 
 }
 
@@ -44,7 +44,7 @@ vertical-align:text-bottom;
 
 
 footer{
-font-size: 15px;
+font-size: .68em;
 text-align: center;
 clear: both;
 }
