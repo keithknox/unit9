@@ -1,0 +1,52 @@
+body{
+width: 90%;
+font-family: Droid Sans, serif;
+font-size: 22px;
+
+}
+
+#logo {
+display: block;
+float: right;
+}
+
+main{
+clear: right;
+padding: 50px;
+}
+
+main img {
+margin-left: 10%;
+}
+
+main p{
+width: 500px;
+float: right;
+clear: left;
+}
+
+nav{ 
+float: right;
+margin-right: 10%;
+}
+nav li{
+text-align: center;
+list-style: none;
+float: left;
+display: inline-block;
+padding: 30px;
+
+}
+
+p{
+vertical-align:text-bottom;
+}
+
+
+footer{
+font-size: 15px;
+text-align: center;
+clear: both;
+}
+
+
