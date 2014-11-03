@@ -6,8 +6,8 @@ font-size: 22px;
 }
 
 #logo {
-display: block;
 float: right;
+
 }
 
 main{
@@ -48,5 +48,8 @@ font-size: .68em;
 text-align: center;
 clear: both;
 }
+
+
+
 
 
