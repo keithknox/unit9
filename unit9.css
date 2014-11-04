@@ -1,5 +1,4 @@
 body{
-width: 90%;
 font-family: Droid Sans, serif;
 font-size: 22px;
 
@@ -7,7 +6,7 @@ font-size: 22px;
 
 #logo {
 float: right;
-
+width: 90%;
 }
 
 main{
@@ -16,11 +15,12 @@ padding: 4%;
 }
 
 main img {
-margin-left: 10%;
+margin-left: 5%;
+
 }
 
 main p{
-width: 35%;
+width: 45%;
 float: right;
 clear: left;
 }
@@ -49,7 +49,15 @@ text-align: center;
 clear: both;
 }
 
-
-
-
-
+@media screen and (min-width: 250px) and (max-width: 720px) {
+		
+	main p {
+	float: none;
+	width: auto;
+	font-size: .75em;
+	}
+	nav li {
+	font-size: .75em;
+	}
+}
+	
