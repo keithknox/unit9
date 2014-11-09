@@ -1,0 +1,63 @@
+body{
+font-family: Droid Sans, serif;
+font-size: 22px;
+width: 90%;
+}
+
+#logo {
+float: right;
+width: 90%;
+}
+
+main{
+clear: right;
+padding: 4%;
+}
+
+main img {
+margin-left: 5%;
+
+}
+
+main p{
+width: 40%;
+float: right;
+clear: left;
+}
+
+nav{ 
+float: right;
+margin-right: 10%;
+}
+nav li{
+text-align: center;
+list-style: none;
+float: left;
+display: inline-block;
+padding: 1.36em;
+
+}
+
+p{
+vertical-align:text-bottom;
+}
+
+
+footer{
+font-size: .68em;
+text-align: center;
+clear: both;
+}
+
+@media screen and (min-width: 250px) and (max-width: 1500px) {
+		
+	main p {
+	float: none;
+	width: auto;
+	font-size: .75em;
+	}
+	nav li {
+	font-size: .75em;
+	}
+}
+	
